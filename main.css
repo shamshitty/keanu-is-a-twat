@@ -83,6 +83,10 @@ audio {
     float: right;
     margin-right: 30px;
 }
+.moist_note {
+    color: darkgray;
+    font-size: 1.3em;
+}
 
 
 #why {
@@ -102,7 +106,7 @@ audio {
     margin: 0 auto;
     text-align: center;
 
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
 
     border-width: 8px;
     border-color: white;
