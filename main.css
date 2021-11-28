@@ -1,0 +1,67 @@
+body {
+    color: white;
+    background-color: #141414;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+}
+p {
+    text-align: center;
+    font-size: 2em;
+}
+
+#desktop {
+    visibility: hidden;
+}
+#mobile {
+    visibility: hidden;
+}
+.all {
+    visibility: visible;
+}
+
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    p {
+        font-size: 1em;
+    }
+    h1 {
+        font-size: 2em;
+        margin-top: 70px;
+    }
+
+    #mobile {
+        visibility: visible;
+    }
+    #desktop {
+        visibility: hidden;
+    }
+    .all {
+        visibility: visible;
+    }
+
+
+    video {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
