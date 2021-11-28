@@ -156,6 +156,13 @@ audio {
     audio {
         width: 250px;
     }
+
+    .moist {
+        display: none;
+    }
+    .moist_note {
+        font-size: 0.7em;
+    }
 }
 
 
