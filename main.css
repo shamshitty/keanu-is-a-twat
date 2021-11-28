@@ -47,6 +47,9 @@ p {
 .all {
     visibility: visible;
 }
+.keanu {
+    margin: 0 auto;
+}
 
 
 video {
@@ -59,6 +62,11 @@ img {
     display: block;
     margin: 0 auto;
     width: 55%;
+}
+audio {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
 }
 
 
@@ -74,6 +82,14 @@ img {
     list-style: none;
     font-size: 1.5em;
     margin-top: 50px;
+}
+#keanu_section {
+    margin: 0 auto;
+    text-align: center;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    width: 800px;
 }
 
 
@@ -109,6 +125,12 @@ img {
     }
     #reasons {
         font-size: 1.5em;
+    }
+    #keanu_section {
+        width: 310px;
+    }
+    audio {
+        width: 250px;
     }
 }
 
