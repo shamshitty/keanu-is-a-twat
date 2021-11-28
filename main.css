@@ -15,7 +15,7 @@ p {
 }
 
 #desktop {
-    visibility: hidden;
+    visibility: visible;
 }
 #mobile {
     visibility: hidden;
