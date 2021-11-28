@@ -33,6 +33,10 @@ h1 {
     margin-top: 50px;
     font-size: 3em;
 }
+h2 {
+    text-align: center;
+    font-size: 3em;
+}
 p {
     text-align: center;
     font-size: 2em;
@@ -134,3 +138,21 @@ audio {
     }
 }
 
+
+::-webkit-scrollbar {
+    width: 13px;
+    background-color: #0B0B0B;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #343434; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4e4e4e;
+}
